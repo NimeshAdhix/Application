@@ -17,6 +17,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        boolean b = false;
         return super.getView(position, convertView, parent);
     }
 }
