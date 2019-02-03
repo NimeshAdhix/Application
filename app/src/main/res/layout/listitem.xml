@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/english_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="One"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/nepali_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/english_textview"
+        android:text="Ek"
+        android:textSize="25dp" />
+</LinearLayout>
